@@ -35,7 +35,7 @@
 
         this.error = ""
 
-        axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${this.city}&units=metric&appid=d20c5a0d85b37f8dc8bbf72e66221a41`)
+        axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${this.city}&units=metric&appid=""`)
           .then(res => (this.info = res.data))
       }
     }
